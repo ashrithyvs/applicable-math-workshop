@@ -13,7 +13,7 @@ function Hero() {
           target="blank"
           className="bg-transparent mt-12 border-[0.5px] rounded-lg border-slate-100 px-6 py-4"
         >
-          Register Now
+          Register Now!
         </a>
       </div>
     </div>
