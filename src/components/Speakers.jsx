@@ -114,6 +114,34 @@ function Speakers() {
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       image: "",
     },
+    {
+      name: "Dr Faizan Danish",
+      title: "Assistant Professor, VIT-AP University, Amaravati",
+      caption:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      image: "",
+    },
+    {
+      name: "Dr Byron Smith",
+      title: "Sr Scientist, Petrochemical Industry, Bangalore",
+      caption:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      image: "",
+    },
+    {
+      name: "Vegugopal Parasuraman and his team",
+      title: "Wolfram Software (MATHEMATICA)",
+      caption:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      image: "",
+    },
+    {
+      name: "Mr Souvick Chatterjee",
+      title: "Math works (MATLAB)",
+      caption:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      image: "",
+    },
   ];
 
   return (
@@ -124,7 +152,7 @@ function Speakers() {
       <div className="w-3/4 mx-auto">
         <h4 className="text-secondary text-5xl mb-16 text-center">Speakers</h4>
         <div className=" flex justify-around flex-wrap items-center ">
-          {speakers.map((item) => {
+          {speakers.map(({ name, title, caption }) => {
             return (
               <div className="bg-secondary text-primary px-6 py-8 flex max-w-[38rem] h-[15rem] space-x-6 items-center mb-2 rounded-xl">
                 <img
@@ -132,9 +160,9 @@ function Speakers() {
                   className="rounded-full w-32"
                 />
                 <div className="flex flex-col">
-                  <h4 className="text-xl mb-1">{item.name}</h4>
-                  <h4 className="text-lg italic">{item.title}</h4>
-                  <h4 className="text-md">{item.caption}</h4>
+                  <h4 className="text-xl mb-1">{name}</h4>
+                  <h4 className="text-lg italic">{title}</h4>
+                  <h4 className="text-md">{caption ? caption : null}</h4>
                 </div>
               </div>
             );
