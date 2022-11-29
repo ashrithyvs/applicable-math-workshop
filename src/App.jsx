@@ -6,15 +6,17 @@ import {
   Speakers,
   Registration,
   Contact,
+  Committee,
 } from "./components";
 
 function App() {
   return (
     <div className="flex flex-col m-0 p-0">
-      {/* <Navbar /> */}
+      <Navbar />
       <Hero />
       <About />
       <Organizers />
+      <Committee />
       <Speakers />
       <Registration />
       <Contact />

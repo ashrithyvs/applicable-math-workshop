@@ -2,13 +2,13 @@ import React from "react";
 
 function About() {
   return (
-    <div className="wrapper bg-primary text-center">
+    <div id="about" className="wrapper bg-primary text-center">
       <div className="w-2/3 mx-auto">
-        <div className="py-12 my-12">
+        <div className="py-12 my-12 ">
           <h4 className="font-bold text-secondary text-3xl mb-8">
             About VIT-AP University, Amaravati
           </h4>
-          <p>
+          <p className="text-justify">
             VIT-AP University founded under the eminent guidance of Founder and
             Chancellor Dr. G Viswanathan has emerged as one of the promising and
             prominent academic institutes in the country. Despite being a young
@@ -34,7 +34,7 @@ function About() {
           <h4 className="font-bold text-secondary text-3xl mb-8">
             About the Department of Mathematics
           </h4>
-          <p>
+          <p className="text-justify">
             The Department of Mathematics at VIT-AP, has 49 dedicated faculty
             members with two exclusive programmes in Data Science at the under
             graduate and post graduate level besides fulfilling the needs of the
@@ -55,7 +55,7 @@ function About() {
           <h4 className="font-bold text-secondary text-3xl mb-8">
             About the workshop
           </h4>
-          <p>
+          <p className="text-justify">
             This workshop aims to provide an able forum for an exchange of ideas
             in different aspects of Applicable Mathematics in Science and
             Engineering. It draws particular emphasis to the understanding of
