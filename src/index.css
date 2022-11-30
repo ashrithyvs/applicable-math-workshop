@@ -7,5 +7,5 @@
 }
 
 .wrapper {
-  @apply min-h-screen max-w-[99.15vw];
+  @apply min-h-screen max-w-full;
 }

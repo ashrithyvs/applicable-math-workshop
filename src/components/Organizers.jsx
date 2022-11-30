@@ -46,7 +46,9 @@ function Organizers() {
       className="wrapper bg-secondary flex flex-col pt-24 pb-12 justify-center"
     >
       <div className="w-2/3 mx-auto">
-        <h4 className="text-primary text-5xl mb-24 text-center">Organizers</h4>
+        <h4 className="text-primary text-3xl sm:text-5xl mb-24 text-center">
+          Organizers
+        </h4>
         <div className=" flex justify-around flex-wrap items-center ">
           {organizers.map((item) => {
             return (

@@ -169,18 +169,21 @@ function Committee() {
       className="wrapper bg-secondary flex flex-col pt-12 pb-24 justify-center"
     >
       <div className="w-2/3 mx-auto">
-        <h4 className="text-primary text-5xl mb-24 text-center">
+        <h4 className="text-primary text-3xl sm:text-5xl mb-24 text-center">
           Co-ordinators & Committees
         </h4>
         <div className=" flex justify-around flex-wrap items-center ">
           {Object.keys(committees).map((committee) => {
             return committees[committee].map((item) => {
               return (
-                <div className="bg-primary px-6 py-8 mb-8 flex w-[20rem] flex-col items-center space-y-4  rounded-xl">
-                  <img src={item.image} className="rounded-full w-32" />
+                <div className="bg-primary px-2 sm:px-6 py-8 mb-8 flex w-[20rem] flex-col items-center space-y-4  rounded-xl">
                   <div className="text-center">
-                    <h4 className="text-xl">{item.name}</h4>
-                    <h4 className="text-lg italic">{item.title}</h4>
+                    <h4 className="text-xl">
+                      {item.name}
+                      {item.title ? (
+                        <span className="italic">, {item.title}</span>
+                      ) : null}
+                    </h4>
                   </div>
                 </div>
               );

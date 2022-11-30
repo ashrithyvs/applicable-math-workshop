@@ -154,12 +154,12 @@ function Speakers() {
         <div className=" flex justify-around flex-wrap items-center ">
           {speakers.map(({ name, title, caption }) => {
             return (
-              <div className="bg-secondary text-primary px-6 py-8 flex max-w-[38rem] h-[15rem] space-x-6 items-center mb-2 rounded-xl">
+              <div className="bg-secondary text-primary px-6 py-8 flex flex-col sm:flex-row max-w-[38rem] sm:h-[15rem] sm:space-x-6 items-center mb-2 rounded-xl">
                 <img
                   src="https://via.placeholder.com/300"
                   className="rounded-full w-32"
                 />
-                <div className="flex flex-col">
+                <div className="flex flex-col mt-3 sm:mt-0 text-center sm:text-left">
                   <h4 className="text-xl mb-1">{name}</h4>
                   <h4 className="text-lg italic">{title}</h4>
                   <h4 className="text-md">{caption ? caption : null}</h4>

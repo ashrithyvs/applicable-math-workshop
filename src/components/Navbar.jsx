@@ -34,16 +34,50 @@ function Navbar() {
 
   function scroll(id) {
     document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+    toggleMobileNav();
+  }
+
+  function toggleMobileNav() {
+    document.querySelector(".mobile-menu").classList.toggle("hidden");
   }
 
   return (
-    <div className="bg-primary opacity-80 w-full h-20 max-h-20 flex flex-col justify-center fixed">
-      <div className="flex w-2/3 items-center justify-around mx-auto">
+    <div className="bg-primary w-full h-20 max-h-20 flex flex-col lg:justify-center py-8 fixed">
+      <div
+        onClick={toggleMobileNav}
+        className="hamburger-icon visible ml-auto lg:hidden px-6"
+      >
+        <svg
+          stroke="currentColor"
+          fill="currentColor"
+          strokeWidth="0"
+          viewBox="0 0 512 512"
+          height="24px"
+          width="24px"
+          className="ml-20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M32 96v64h448V96H32zm0 128v64h448v-64H32zm0 128v64h448v-64H32z"></path>
+        </svg>
+      </div>
+      <div className="lg:flex w-2/3 items-center hidden justify-around mx-auto">
         {navItems.map((item) => {
           return (
             <div
               onClick={(e) => scroll(item.refId)}
               className="cursor-pointer py-4 px-6 rounded-lg hover:bg-secondary hover:text-slate-100"
+            >
+              {item.name}
+            </div>
+          );
+        })}
+      </div>
+      <div className="lg:flex-col items-center bg-primary w-full hidden mobile-menu justify-around mx-auto">
+        {navItems.map((item) => {
+          return (
+            <div
+              onClick={(e) => scroll(item.refId)}
+              className="cursor-pointer py-4 px-6 rounded-lg hover:bg-secondary hover:text-slate-100 block transition duration-300"
             >
               {item.name}
             </div>
