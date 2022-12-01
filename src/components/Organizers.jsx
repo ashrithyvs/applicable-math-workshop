@@ -9,7 +9,7 @@ function Organizers() {
       image: "https://vitap.ac.in/wp-content/uploads/2019/06/Dr.-S.-SRINIVAS.jpg",
     },
     {
-      name: "Dr Satyanarayana Badeti",
+      name: "Dr B Satyanarayana",
       grade: "",
       title: "Convernor",
       image: "https://vitap.ac.in/wp-content/uploads/2020/07/Dr.-B.-SATYANARAYANA.jpg",
@@ -33,7 +33,7 @@ function Organizers() {
       image: "https://vitap.ac.in/wp-content/uploads/2020/08/anilnegi_70156.jpg",
     },
     {
-      name: "Dr Varun Kumar",
+      name: "Dr M Varun Kumar",
       grade: "",
       title: "Joint Organizing Secretar",
       image: "https://vitap.ac.in/wp-content/uploads/2022/06/Varun-Kumar-Merugu.jpg",
