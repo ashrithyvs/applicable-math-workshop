@@ -6,7 +6,7 @@ function Organizers() {
       name: "Prof S Srinivas",
       grade: "",
       title: "Convernor",
-      image: "https://via.placeholder.com/300",
+      image: "https://vitap.ac.in/wp-content/uploads/2019/06/Dr.-S.-SRINIVAS.jpg",
     },
     {
       name: "Dr Satyanarayana Badeti",
