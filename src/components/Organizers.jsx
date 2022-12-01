@@ -12,31 +12,31 @@ function Organizers() {
       name: "Dr Satyanarayana Badeti",
       grade: "",
       title: "Convernor",
-      image: "https://via.placeholder.com/300",
+      image: "https://vitap.ac.in/wp-content/uploads/2020/07/Dr.-B.-SATYANARAYANA.jpg",
     },
     {
       name: "Dr V Ramakrishna Reddy",
       grade: "",
       title: "Organizing Secretary",
-      image: "https://via.placeholder.com/300",
+      image: "https://vitap.ac.in/wp-content/uploads/2020/07/Dr.-VEMULA-RAMAKRISHNA-REDDY.jpg",
     },
     {
       name: "Dr N Rajashekar",
       grade: "",
       title: "Organizing Secretary",
-      image: "https://via.placeholder.com/300",
+      image: "https://vitap.ac.in/wp-content/uploads/2022/04/Dr-N-Rajasekhar.jpg",
     },
     {
       name: "Dr Anil Negi",
       grade: "",
       title: "Joint Organizing Secretary",
-      image: "https://via.placeholder.com/300",
+      image: "https://vitap.ac.in/wp-content/uploads/2020/08/anilnegi_70156.jpg",
     },
     {
       name: "Dr Varun Kumar",
       grade: "",
       title: "Joint Organizing Secretar",
-      image: "https://via.placeholder.com/300",
+      image: "https://vitap.ac.in/wp-content/uploads/2022/06/Varun-Kumar-Merugu.jpg",
     },
   ];
 
