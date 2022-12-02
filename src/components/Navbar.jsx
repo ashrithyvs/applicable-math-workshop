@@ -34,7 +34,6 @@ function Navbar() {
 
   function scroll(id) {
     document.getElementById(id).scrollIntoView({ behavior: "smooth" });
-    toggleMobileNav();
   }
 
   function toggleMobileNav() {

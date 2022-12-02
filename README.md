@@ -15,4 +15,4 @@
 
 ## To pull code
 
-1. 'git pull'
+1. 'git pull origin master'

@@ -157,7 +157,7 @@ function Speakers() {
               <div className="bg-secondary text-primary px-6 py-8 flex flex-col sm:flex-row max-w-[38rem] sm:h-[15rem] sm:space-x-6 items-center mb-2 rounded-xl">
                 <img
                   src="https://via.placeholder.com/300"
-                  className="rounded-full w-32"
+                  className="rounded-full w-32 h-32"
                 />
                 <div className="flex flex-col mt-3 sm:mt-0 text-center sm:text-left">
                   <h4 className="text-xl mb-1">{name}</h4>
