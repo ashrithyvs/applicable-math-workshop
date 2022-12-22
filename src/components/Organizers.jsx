@@ -5,13 +5,13 @@ function Organizers() {
     {
       name: "Prof S Srinivas",
       grade: "",
-      title: "Convernor",
+      title: "Convenor",
       image: DrSSrinivas,
     },
     {
       name: "Dr B Satyanarayana",
       grade: "",
-      title: "Convernor",
+      title: "Convenor",
       image: DrBSatyanarayana,
     },
     {
