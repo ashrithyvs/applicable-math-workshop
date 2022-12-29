@@ -1,5 +1,12 @@
 import React from "react";
-import { DrSSrinivas, DrBSatyanarayana } from "../assets";
+import {
+  DrSSrinivas,
+  DrBSatyanarayana,
+  AnilNegi,
+  DrVemula,
+  DrNRajasekhar,
+  VarunKumarMerugu,
+} from "../assets";
 function Organizers() {
   const organizers = [
     {
@@ -18,29 +25,25 @@ function Organizers() {
       name: "Dr V Ramakrishna Reddy",
       grade: "",
       title: "Organizing Secretary",
-      image:
-        "https://vitap.ac.in/wp-content/uploads/2020/07/Dr.-VEMULA-RAMAKRISHNA-REDDY.jpg",
+      image: DrVemula,
     },
     {
       name: "Dr N Rajashekar",
       grade: "",
       title: "Organizing Secretary",
-      image:
-        "https://vitap.ac.in/wp-content/uploads/2022/04/Dr-N-Rajasekhar.jpg",
+      image: DrNRajasekhar,
     },
     {
       name: "Dr Anil Negi",
       grade: "",
       title: "Joint Organizing Secretary",
-      image:
-        "https://vitap.ac.in/wp-content/uploads/2020/08/anilnegi_70156.jpg",
+      image: AnilNegi,
     },
     {
       name: "Dr M Varun Kumar",
       grade: "",
       title: "Joint Organizing Secretar",
-      image:
-        "https://vitap.ac.in/wp-content/uploads/2022/06/Varun-Kumar-Merugu.jpg",
+      image: VarunKumarMerugu,
     },
   ];
 
