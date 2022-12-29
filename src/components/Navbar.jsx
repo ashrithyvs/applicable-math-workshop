@@ -1,5 +1,5 @@
 import React from "react";
-
+import { VITAPLogo } from "../assets";
 function Navbar() {
   const navItems = [
     {
@@ -34,6 +34,8 @@ function Navbar() {
 
   function scroll(id) {
     document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+    let a = document.querySelector(".mobile-menu").classList;
+    a.contains("hidden") ? null : a.toggle("hidden");
   }
 
   function toggleMobileNav() {
@@ -60,9 +62,15 @@ function Navbar() {
         </svg>
       </div>
       <div className="lg:flex w-2/3 items-center hidden justify-around mx-auto">
+        <img
+          src={VITAPLogo}
+          onClick={(e) => scroll("hero")}
+          className="w-[13%] mx-4 cursor-pointer"
+        />
         {navItems.map((item) => {
           return (
             <div
+              key={item.refId}
               onClick={(e) => scroll(item.refId)}
               className="cursor-pointer py-4 px-6 rounded-lg hover:bg-secondary hover:text-slate-100"
             >
@@ -75,6 +83,7 @@ function Navbar() {
         {navItems.map((item) => {
           return (
             <div
+              key={item.refId}
               onClick={(e) => scroll(item.refId)}
               className="cursor-pointer py-4 px-6 rounded-lg hover:bg-secondary hover:text-slate-100 block transition duration-300"
             >

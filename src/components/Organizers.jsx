@@ -54,9 +54,12 @@ function Organizers() {
           Organizers
         </h4>
         <div className=" flex justify-around flex-wrap items-center ">
-          {organizers.map((item) => {
+          {organizers.map((item, idx) => {
             return (
-              <div className="bg-primary px-6 py-8 mb-8 flex w-[20rem] flex-col items-center space-y-4  rounded-xl">
+              <div
+                key={idx}
+                className="bg-primary px-6 py-8 mb-8 flex w-[20rem] flex-col items-center space-y-4  rounded-xl"
+              >
                 <img src={item.image} className="rounded-full w-32 h-32" />
                 <div className="text-center">
                   <h4 className="text-xl">{item.name}</h4>

@@ -173,16 +173,19 @@ function Committee() {
           Co-ordinators & Committees
         </h4>
         <div className=" flex flex-col justify-around flex-wrap items-center">
-          {Object.keys(committees).map((committee) => {
+          {Object.keys(committees).map((committee, idx) => {
             return (
-              <div className=" flex flex-col py-12">
+              <div key={idx} className=" flex flex-col py-12">
                 <h4 className="text-slate-50 text-center mb-6 text-2xl">
                   {committee}
                 </h4>
                 <div className="flex justify-around flex-wrap items-center">
-                  {committees[committee].map((item) => {
+                  {committees[committee].map((item, i) => {
                     return (
-                      <div className="bg-primary px-2 sm:px-6 mx-2 py-8 mb-8 flex w-[20rem] flex-col items-center space-y-4  rounded-xl">
+                      <div
+                        key={i}
+                        className="bg-primary px-2 sm:px-6 mx-2 py-8 mb-8 flex w-[20rem] flex-col items-center space-y-4  rounded-xl"
+                      >
                         <div className="text-center">
                           <h4 className="text-xl">
                             {item.name}
