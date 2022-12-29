@@ -65,7 +65,7 @@ function Navbar() {
         <img
           src={VITAPLogo}
           onClick={(e) => scroll("hero")}
-          className="w-[13%] mx-4 cursor-pointer"
+          className="w-[15%] mx-12 cursor-pointer"
         />
         {navItems.map((item) => {
           return (
