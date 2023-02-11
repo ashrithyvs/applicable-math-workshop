@@ -4,6 +4,27 @@ export { default as AnilNegi } from "./anilnegi_70156.jpg";
 export { default as DrVemula } from "./Dr.VEMULA RAMAKRISHNA REDDY.jpg";
 export { default as DrNRajasekhar } from "./Dr.N.Rajasekhar.jpg";
 export { default as VarunKumarMerugu } from "./Varun-Kumar-Merugu.jpg";
+export { default as AnujMubayi } from "./AnujMubayi.jpg";
+export { default as Anant } from "./Anant.jpg";
+export { default as Annapurna } from "./Annapurna.jpg";
+export { default as Aswini } from "./Aswini.jpg";
+export { default as Aravind } from "./Aravind.jpg";
+export { default as BSRV } from "./BSRV.jpg";
+export { default as Byron } from "./Byron.jpg";
+export { default as ElayarajaAruchunan } from "./ElayarajaAruchunan.jpg";
+export { default as Faizan } from "./Faizan.jpg";
+export { default as GSreedharRao } from "./GSreedharRao.jpg";
+export { default as Kameswaran } from "./Kameswaran.jpg";
+export { default as KohilavaniNaganthran } from "./KohilavaniNaganthran.jpg";
+export { default as Manoranjan } from "./Manoranjan.jpg";
+export { default as Pankaj } from "./Pankaj.jpg";
+export { default as PVSN } from "./PVSN.jpg";
+export { default as Raja } from "./Raja.jpg";
+export { default as RamanaReddy } from "./RamanaReddy.jpg";
+export { default as Souvick } from "./Souvick.jpg";
+export { default as Srinivasacharya } from "./Srinivasacharya.jpg";
+export { default as TVS } from "./TVS.jpg";
+
 export { default as Placeholder } from "./300.png";
 
 export { default as VITAPLogo } from "./vitap_logo.png";
