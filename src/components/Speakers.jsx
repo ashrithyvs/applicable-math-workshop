@@ -175,9 +175,9 @@ function Speakers() {
               >
                 <img src={image} className="rounded-full w-32 h-32" />
                 <div className="flex flex-col mt-3 sm:mt-0 text-center sm:text-left">
-                  <h4 className="text-xl mb-1">{name}</h4>
+                  <h4 className="text-xl">{name}</h4>
                   <h4 className="text-lg italic">{title}</h4>
-                  <h4 className="text-md">{caption ? caption : null}</h4>
+                  <h4 className="text-md mt-2">{caption ? caption : null}</h4>
                 </div>
               </div>
             );
